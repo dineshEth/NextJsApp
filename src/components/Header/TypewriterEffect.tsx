@@ -5,22 +5,26 @@ function TypewriterEffect() {
     const words = [
         {
           text: "Dinesh",
-          className: "text-white",
+          className: "text-white text-3xl md:text-5xl",
 
         },
         {
           text: "Prajapati",
-          className: "text-white",
+          className: "text-white text-3xl md:text-5xl",
 
         },
         {
+          text: 'based in',
+          className: 'text-white text-3xl md:text-5xl'
+        },
+        {
           text: "India",
-          className: "text-[#eb5e28]  ",  
+          className: "text-[#eb5e28] text-3xl md:text-5xl  ",  
         }
       ];
   return (
     <div className='w-full mx-auto text-center'>
-        <TypewriterEffectSmooth words={words}   />
+        <TypewriterEffectSmooth words={words} className='text-wrap'   />
     </div>
   )
 }
