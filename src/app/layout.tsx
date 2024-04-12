@@ -23,7 +23,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${maconda.className} dark:bg-black `}>
+      <body className={`${maconda.className} bg-[#003153] dark:bg-[#3B413C] max-w-7xl text-[24px]  mx-auto `}>
         <Navbar />
         {children}
         </body>

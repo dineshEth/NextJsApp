@@ -1,8 +1,10 @@
 'use client'
+import Header from "@/components/Header/Header";
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <h1 className="text-2xl lg:text-6xl font-bold"> Introduction to NextJs</h1>
+    <main className="flex w-full py-8 min-h-screen flex-col items-center justify-between">
+      {/* <h1 className="text-2xl lg:text-6xl font-bold"> Introduction to NextJs</h1> */}
+      <Header />
     </main>
   );
 }
