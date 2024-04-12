@@ -16,6 +16,7 @@ function Header() {
           <h2 className=' w-full text-3xl md:text-6xl max-w-[961px] mx-auto'>Passionate <span className='bg-[#00A8E8] px-4 py-1 rounded-full'>Frontend</span> Enginner
           </h2>
           <div className=''>
+            <h1 className='text-3xl md:hidden my-3 font-bold'>Dinesh Prajapati based in <span className='text-orange-500'>INDIA</span></h1>
             <TypewriterEffect />
           </div>
         </div>

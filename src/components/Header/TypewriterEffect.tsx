@@ -24,7 +24,7 @@ function TypewriterEffect() {
       ];
   return (
     <div className='w-full mx-auto text-center'>
-        <TypewriterEffectSmooth words={words} className='text-wrap'   />
+        <TypewriterEffectSmooth words={words} className='text-wrap hidden md:flex'   />
     </div>
   )
 }

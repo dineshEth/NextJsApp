@@ -21,7 +21,7 @@ function CTX() {
     ]
   return (
     <div className='w-full rounded-md bg-white text-black '>
-        <div className='flex flex-row  flex-wrap justify-around'>
+        <div className='flex flex-row gap-4 flex-wrap justify-around'>
         {data.map((data: {score:string, name: string})=>(
             <div key={data.name} className='flex flex-col items-center justify-center gap-2 my-2 py-2'>
                 <h2 className='text-4xl text-[#00A8E8] font-sans font-bold'>{data.score}</h2>
