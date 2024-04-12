@@ -16,7 +16,7 @@ function CTX() {
         },
         {
             score:'10+',
-            name:'Webinar'
+            name:'confrence attain'
         }
     ]
   return (
@@ -24,7 +24,7 @@ function CTX() {
         <div className='flex flex-row  flex-wrap justify-around'>
         {data.map((data: {score:string, name: string})=>(
             <div key={data.name} className='flex flex-col items-center justify-center gap-2 my-2 py-2'>
-                <h2 className='text-3xl text-[#00A8E8] font-sans font-extrabold'>{data.score}</h2>
+                <h2 className='text-4xl text-[#00A8E8] font-sans font-bold'>{data.score}</h2>
                 <p className='font-bold'>{data.name}</p>
             </div>
         ))}

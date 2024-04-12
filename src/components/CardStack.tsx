@@ -28,39 +28,30 @@ export const Highlight = ({
 const CARDS = [
     {
       id: 0,
-      name: "",
-      designation: "",
+      className:'bg-blue-400',
       content: (
         <Image 
         src={profile}
-        // height={100}
-        // width={100}
         alt='Profile'
         />
       ),
     },
     {
       id: 1,
-      name: "",
-      designation: "",
+      className:'bg-green-600',
       content: (
         <Image 
         src={profile}
-        // height={100}
-        // width={100}
         alt='Profile'
         />
       ),
     },
     {
       id: 2,
-      name: "",
-      designation: "",
+      className:'bg-orange-600',
       content: (
         <Image 
         src={profile}
-        // height={100}
-        // width={100}
         alt='Profile'
         />
       ),
@@ -69,7 +60,7 @@ const CARDS = [
 
 function CardStackCompo() {
   return (
-    <div className='flex   items-center justify-center w-full'>
+    <div className='flex relative items-center justify-center w-full'>
         <CardStack items={CARDS}  className={'min-h-max min-w-max p-0'} />
     </div>
   )
