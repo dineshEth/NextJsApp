@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter, Macondo } from "next/font/google";
 import "./globals.css";
+import Navbar from "@/components/Navbar";
 
 const inter = Inter({ subsets: ["latin"],
   weight:'600'
@@ -22,7 +23,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={maconda.className}>
+      <body className={`${maconda.className} dark:bg-black `}>
+        <Navbar />
         {children}
         </body>
     </html>
