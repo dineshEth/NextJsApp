@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { Inter, Macondo } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
+import { MeteorsDemo } from "@/components/Meteros";
+import Footer from "@/components/Footer";
 
 const inter = Inter({ subsets: ["latin"],
   weight:'600'
@@ -23,9 +25,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${maconda.className} bg-[#003153] dark:bg-[#3B413C] max-w-7xl text-[24px]  mx-auto `}>
+      <body className={`${maconda.className} bg-[#003153] text-[24px] dark:bg-[#3B413C]  `}>
         <Navbar />
         {children}
+        <Footer />
         </body>
     </html>
   );
