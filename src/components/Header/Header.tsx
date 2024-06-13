@@ -29,11 +29,9 @@ function Header() {
               <p className='bg-[#00A8E8] px-2 max-w-min text-nowrap rounded-full' >Our clients</p>
               <AnimatedTooltipCompo />
             </div>
-            <div className='flex justify-center items-center w-full rounded-md max-w-[360px] mx-atuo max-h-[280px] bg-[#03c9876c] -py-2 '>
+            <div className='flex justify-center items-center w-full rounded-md max-w-[360px] mx-atuo max-h-[280px] shadow-2xl bg-[#03c9876c] -py-2 '>
               <Image 
               src={profile}
-              // height={300}
-              // width={400}
               alt='Profile picture'
               className='rounded-md w-full max-w-[300px] bg-[#03C988]'
                />

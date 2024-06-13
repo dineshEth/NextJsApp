@@ -4,7 +4,8 @@ import { aws, vercel, reactjs, nodejs, js, html } from '@/assets/index';
 import Image from 'next/image';
 function Skills() {
   return (
-        <div className="w-full mx-auto px-8">
+        <div className="w-full my-20 mx-auto px-8">
+          <h1 className='text-3xl my-2 md:text-5xl'> Skills & Expertise</h1>
             <HoverEffect items={projects} />
         </div>
   )

@@ -22,7 +22,7 @@ function Footer() {
                 </div>
                 <p className=''>Frontend Developer</p>
             </div>
-            <div className='flex flex-col '>
+            <div className='flex px-2 text-sm md:text-xl flex-row flex-wrap gap-4 md:flex-col '>
                 <Link href={'/'}>
                     Home
                 </Link>
@@ -41,7 +41,7 @@ function Footer() {
            </MeteorsDemo>
         </div>
         <div className='flex flex-row flex-warp justify-around items-start'></div>
-        <p className='text-xl md:text-3xl text-center bg-black w-full p-1'> &copy; 2024 Dinesh Prajapati. All rights reserved</p>
+        <p className='text-lg md:text-3xl text-center bg-black w-full p-1'>Copyright &copy; 2024 Dinesh Prajapati. All rights reserved</p>
      </div>
     // </MeteorsDemo>
   )

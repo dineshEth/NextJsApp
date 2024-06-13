@@ -47,7 +47,7 @@ export const HoverEffect = ({
             )}
           </AnimatePresence>
           <Card className="flex flex-col justify-center gap-4 items-center">
-            <CardTitle className="text-center">{item.title}</CardTitle>
+            <CardTitle className="text-center text-xl  font-semibold">{item.title}</CardTitle>
             <div className="max-w-[120px] p-2">
                 {item.imageUrl}
             </div>
